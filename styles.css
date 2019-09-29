@@ -1,15 +1,79 @@
+body{
+	margin:0px;
+	font-family: 'Muli', sans-serif;
+}
+
+.header{
+	background-color: green;
+    color: white;
+	top: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex; 
+    align-items: center;
+}
+.header__h2{
+	margin-left: 15px;
+}
+.items{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.items h3{
+	margin-bottom: 30px;
+}
 .color-view{
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
+	border-radius: 25px;
 	display: inline;
-	width: 100px;
-	height: 100px;
 	margin: 5px;
 	padding:10px;
 }
 
 .rules{
+	padding: 30px;
+}
+
+.rules__text{
+	border: green solid 5px;
     width: 500px;
 	height: 200px;
+}
+.buttons{
+	padding:0px 30px;
+	border-radius:45px;
+}
+.buttons_generar{
+	background-color: green;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.buttons__limpiar{
+	border-color: #c72100;
+	color: #e02200;
+	background-color: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
 }
