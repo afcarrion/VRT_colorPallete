@@ -48,7 +48,8 @@ body{
 .rules__text{
 	border: green solid 5px;
     width: 500px;
-	height: 200px;
+    height: 200px;
+    font-size: 12px;
 }
 .buttons{
 	padding:0px 30px;
