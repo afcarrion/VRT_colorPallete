@@ -26,6 +26,11 @@ body{
 .items h3{
 	margin-bottom: 30px;
 }
+#colors-viewer{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 .color-view{
 	border-color: black;
 	border-style: solid;
